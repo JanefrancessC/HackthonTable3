@@ -44,7 +44,14 @@ header {
   background: #333;
   width: 30%;
   height: 100vh;
-  
+  color: white;
+}
+
+#transactions {
+  width: 80%;
+  text-align: justify;
+  margin-top: 1rem;
+  color: white;
 }
 
 #budget {
