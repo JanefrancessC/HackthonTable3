@@ -5,7 +5,7 @@
 }
 /* navigation bar */
 header {
-  background: rgb(8, 55, 102);
+  background: rgb(255, 210, 11);
   height: 100px;
   margin-bottom: 2rem;
 }
@@ -21,6 +21,7 @@ header {
 .nav-bar li {
   list-style-type: none;
   text-decoration: none;
+  font-family: Monaco, monospace;
   text-transform: capitalize;
   
 }
@@ -40,22 +41,17 @@ header {
   align-items: flex-start;
 }
 
-#dashboard {
-  background: #333;
-  width: 30%;
-  height: 100vh;
-  
-}
 
-#budget {
-  background: #777;
+#messages {
+  background: rgb(255, 255, 255);
   width: 20%;
   height: 100vh;
 }
 
-#timeline {
-  background: #567;
-  width: 40%;
+#feed {
+  background: rgb(255, 255, 255);
+  font-family: Verdana, sans-serif;
+  width: 80%;
   height: 100vh;
- 
+  padding: 10px;
 }
